@@ -20,6 +20,8 @@ A classic Snake and Ladders board game built in **C** using **SDL2**, **SDL_imag
 
 > ![image](https://github.com/user-attachments/assets/2454c9d4-18cf-48b5-93d7-b0403e96ba98)
 > ![Screenshot 2025-06-22 194419](https://github.com/user-attachments/assets/2f6804ce-92bf-4097-8d22-65bd55889904)
+> ![image](https://github.com/user-attachments/assets/a2b20ed4-dc0b-44c8-9488-3f7b009f8bb5)
+
 
 *Sample PlayThrough of the Game*
 ---
