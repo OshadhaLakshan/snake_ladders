@@ -6,12 +6,10 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <math.h>
-#ifndef M_PI
-#define M_PI 3.14159265358979323846
-#endif
 #include <time.h>
 
 // Game configuration constants
+#define M_PI 3.14159265358979323846
 #define NUM_SNAKES 4
 #define NUM_LADDERS 3
 #define SCREEN_WIDTH 640
@@ -70,7 +68,8 @@ int main() {
         return 1;
     }
 
-    SDL_Window* window = SDL_CreateWindow("Snake and Ladders", SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
+    SDL_Window* window = SDL_CreateWindow("Snake and Ladders - by Oshadha Lakshan", 
+                                          SDL_WINDOWPOS_CENTERED, SDL_WINDOWPOS_CENTERED,
                                           SCREEN_WIDTH, SCREEN_HEIGHT, 0);
     if (!window) {
         fprintf(stderr, "Failed to create window: %s\n", SDL_GetError());
